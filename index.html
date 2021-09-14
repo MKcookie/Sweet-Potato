@@ -5,74 +5,323 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Business Casual - Start Bootstrap Theme</title>
+        <title>Agency - Start Bootstrap Theme</title>
+        <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <script async src="https://api.countapi.xyz/hit/mkcookie.github.io/Sweet-Potato/visits?callback=callbackName"></script>
     </head>
-    <body>
-        <header>
-            <h1 class="site-heading text-center text-faded d-none d-lg-block">
-                <span class="site-heading-upper text-primary mb-3">A Free Bootstrap Business Theme</span>
-                <span class="site-heading-lower">Business Casual</span>
-            </h1>
-        </header>
+    <body id="page-top">
+
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Start Bootstrap</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Home</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="about.html">About</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="products.html">Products</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="store.html">Store</a></li>
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/sweet-potato-logo.jpg" alt="..." style="width: 70px; height: 70px;"/></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#page-top">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#shop">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link">| <i class="fas fa-shopping-cart"></i></a></li>
+                        <li class="nav-item"><a class="nav-link">| <i class="fas fa-eye"></i><span style="font-size: 12px;">   Views: </span><span id="visits" style="font-size: 12px;"></span></a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <section class="page-section clearfix">
+        <!-- Masthead-->
+        <header class="masthead">
             <div class="container">
-                <div class="intro">
-                    <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="assets/img/intro.jpg" alt="..." />
-                    <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-                        <h2 class="section-heading mb-4">
-                            <span class="section-heading-upper">Fresh Coffee</span>
-                            <span class="section-heading-lower">Worth Drinking</span>
-                        </h2>
-                        <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!</p>
-                        <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="#!">Visit Us Today!</a></div>
-                    </div>
-                </div>
+                <div class="masthead-heading text-uppercase">Make Your Life Sweeter</div>
+                <a class="btn btn-outline-primary btn-xl" href="#shop">Let's Sweet!</a>
             </div>
-        </section>
-        <section class="page-section cta">
+        </header>
+
+        <!-- Shop Section Begin -->
+        <section class="shop spad page-section" id="shop">
             <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase" style="margin: 40px 0px 100px 0px">Products</h2>
+                </div>
                 <div class="row">
-                    <div class="col-xl-9 mx-auto">
-                        <div class="cta-inner bg-faded text-center rounded">
-                            <h2 class="section-heading mb-4">
-                                <span class="section-heading-upper">Our Promise</span>
-                                <span class="section-heading-lower">To You</span>
-                            </h2>
-                            <p class="mb-0">When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!</p>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="product__item">
+                            <div class="product__item__pic">
+                                <img src="assets/img/energy-balls.jpg" alt="..." style="width: 200px; height: 200px; margin: auto; display: block; border: 5px solid #f7baf4;"/>
+                                <div class="product__label">
+                                    <span>Sweet Potato</span>
+                                </div>
+                            </div>
+                            <div class="product__item__text">
+                                <h6><a href="#">Energy balls</a></h6>
+                                <div class="product__item__price">$32.00</div>
+                                <div class="cart_add">
+                                    <a href="#">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="product__item">
+                            <div class="product__item__pic">
+                                <img src="assets/img/brownie.jpg" alt="..." style="width: 200px; height: 200px; margin: auto; display: block; border: 5px solid #f7baf4;"/>
+                                <div class="product__label">
+                                    <span>Sweet Potato</span>
+                                </div>
+                            </div>
+                            <div class="product__item__text">
+                                <h6><a href="#">Brownie</a></h6>
+                                <div class="product__item__price">$30.00</div>
+                                <div class="cart_add">
+                                    <a href="#">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="product__item">
+                            <div class="product__item__pic">
+                                <img src="assets/img/choc-ball.jpg" alt="..." style="width: 200px; height: 200px; margin: auto; display: block; border: 5px solid #f7baf4;"/>
+                                <div class="product__label">
+                                    <span>Sweet Potato</span>
+                                </div>
+                            </div>
+                            <div class="product__item__text">
+                                <h6><a href="#">Choc balls</a></h6>
+                                <div class="product__item__price">$31.00</div>
+                                <div class="cart_add">
+                                    <a href="#">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="product__item">
+                            <div class="product__item__pic">
+                                <img src="assets/img/healthy-sweet-potato-mini-cake.jpg" alt="..." style="width: 200px; height: 200px; margin: auto; display: block; border: 5px solid #f7baf4;"/>
+                                <div class="product__label">
+                                    <span>Sweet Potato</span>
+                                </div>
+                            </div>
+                            <div class="product__item__text">
+                                <h6><a href="#">Healthy sweet potato mini cake</a></h6>
+                                <div class="product__item__price">$25.00</div>
+                                <div class="cart_add">
+                                    <a href="#">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="product__item">
+                            <div class="product__item__pic">
+                                <img src="assets/img/singapore-cookies.jpg" alt="..." style="width: 200px; height: 200px; margin: auto; display: block; border: 5px solid #f7baf4;"/>
+                                <div class="product__label">
+                                    <span>Sweet Potato</span>
+                                </div>
+                            </div>
+                            <div class="product__item__text">
+                                <h6><a href="#">Singapore cookies</a></h6>
+                                <div class="product__item__price">$05.00</div>
+                                <div class="cart_add">
+                                    <a href="#">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="product__item">
+                            <div class="product__item__pic">
+                                <img src="assets/img/product-big-2.jpg" alt="..." style="width: 200px; height: 200px; margin: auto; display: block; border: 5px solid #f7baf4;"/>
+                                <div class="product__label">
+                                    <span>Sweet Potato</span>
+                                </div>
+                            </div>
+                            <div class="product__item__text">
+                                <h6><a href="#">Strawberry cake</a></h6>
+                                <div class="product__item__price">$14.00</div>
+                                <div class="cart_add">
+                                    <a href="#">Add to cart</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <footer class="footer text-faded text-center py-5">
-            <div class="container"><p class="m-0 small">Copyright &copy; Your Website 2021</p></div>
+        <!-- Shop Section End -->
+
+        <!-- Services-->
+        <section class="page-section" id="services" style="background-color: #fae1f9;">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase" style="margin: 40px 0px 100px 0px">Services</h2>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x" style="color: #d80ece;"></i>
+                            <i class="fas fa-store fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h5 class="my-3" style="color: #994395;">Safe shopping<br>Buy with confidence</h5>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x" style="color: #d80ece;"></i>
+                            <i class="fas fa-shipping-fast fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h5 class="my-3" style="color: #994395;">Fast shipping<br>Get your product fast</h5>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x" style="color: #d80ece;"></i>
+                            <i class="fas fa-thumbs-up fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h5 class="my-3" style="color: #994395;">Satisfaction guarantee<br>Or get your money back</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">About</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2009-2011</h4>
+                                <h4 class="subheading">Our Humble Beginnings</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>March 2011</h4>
+                                <h4 class="subheading">An Agency is Born</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>December 2015</h4>
+                                <h4 class="subheading">Transition to Full Service</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>July 2020</h4>
+                                <h4 class="subheading">Phase Two Expansion</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                Be Part
+                                <br />
+                                Of Our
+                                <br />
+                                Story!
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Section Begin -->
+        <section class="contact spad page-section" id="contact">
+            <div class="container">
+                <div class="contact__address">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="contact__text">
+                            <h3>Contact With us</h3>
+                            <ul>
+                                <li><i class="far fa-envelope"></i> EMAIL: sweet-potato@gmail.com</li>
+                                <li><i class="fas fa-phone-square-alt"></i> PHONE: 0123456789</li>
+                                <li><i class="fab fa-line"></i> LINE OFFICIAL: @sweet-potato</li>
+                            </ul>
+                            <img src="assets/img/cake-piece.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="contact__form">
+                            <form action="#">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <input type="text" placeholder="Name">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" placeholder="Email">
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <textarea placeholder="Message"></textarea>
+                                        <button type="submit" class="site-btn">Send Us</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section End -->
+
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2021</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
         </footer>
+        
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
