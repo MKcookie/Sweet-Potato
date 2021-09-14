@@ -53,6 +53,12 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-function callbackName(response) {
-    document.getElementById('visits').innerText = response.value;
-}
+function loadView() {
+    const xhttp = new XMLHttpRequest();
+    xhttp.onload = function() {
+        const myArray = this.responseText.split(":");
+      document.getElementById("visits").innerHTML = myArray[1].replace("}", "");
+    }
+    xhttp.open("GET", "https://api.countapi.xyz/hit/mkcookie.github.io/Sweet-Potato");
+    xhttp.send();
+  }
